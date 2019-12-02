@@ -6,6 +6,7 @@
     <string name="nav_header_subtitle">rail.gabdullin@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="on_location">Геолокация</string>
 
     <string name="menu_home">Погода в моем городе</string>
     <string name="menu_gallery">Прогноз погоды</string>
