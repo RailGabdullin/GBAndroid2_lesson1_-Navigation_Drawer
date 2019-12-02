@@ -3,13 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="200"
+        android:orderInCategory="300"
         android:title="@string/action_settings"
         app:showAsAction="never" />
     <item
         android:id="@+id/on_location"
-        android:orderInCategory="100"
+        android:orderInCategory="200"
+        android:title="@string/on_location"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_compass"/>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="200"
         android:title="@string/on_location"
         app:showAsAction="always"
-        android:icon="@android:drawable/ic_menu_compass"/>
+        android:icon="@android:drawable/ic_menu_manage"/>
 </menu>
